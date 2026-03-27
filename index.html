@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Cassette Player</title>
+    <link rel="stylesheet" href="styles/boombox.css" />
+  </head>
+  <body>
+    <h1>Radio Cassette Player</h1>
+
+    <radio-cassette></radio-cassette>
+
+    <cassette-tray columns="3">
+      <cassette-tape
+        label-a="Sample Mix Tape A"
+        label-b="Sample Mix Tape B"
+        side-a-src="mp3/sample1.mp3"
+        side-b-src="mp3/sample2.mp3"
+        color="#844D26"
+        locked
+      ></cassette-tape>
+
+      <cassette-tape
+        label-a="Rock Classics A"
+        label-b="Rock Classics B"
+        side-a-src="mp3/sample1.mp3"
+        side-b-src="mp3/sample2.mp3"
+        color="#87CEEB"
+        locked
+      ></cassette-tape>
+
+      <cassette-tape color="#FAF3E0"></cassette-tape>
+    </cassette-tray>
+
+    <p
+      style="font-size: 12px; color: #666; margin-top: 10px; text-align: center"
+    >
+      カセットをドラッグしてラジカセに挿入 ／ ダブルクリックでA面B面を裏返す
+    </p>
+
+    <script type="module" src="radio-cassette.js"></script>
+  </body>
+</html>

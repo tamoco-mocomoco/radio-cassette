@@ -1,0 +1,18 @@
+{
+  "name": "radio-cassette",
+  "version": "1.0.0",
+  "description": "カセットテープをドラッグしてラジカセに挿入して音楽を再生する、レトロ体験を再現した Web Component です。 シークバーはありません。早送り・巻き戻し・A面B面の入れ替えなど、古き良きカセットテープの不便さを楽しめます。",
+  "main": "radio-cassette.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "playwright": "^1.58.2",
+    "serve": "^14.2.6"
+  }
+}

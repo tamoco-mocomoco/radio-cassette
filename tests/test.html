@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Page</title>
+  </head>
+  <body>
+    <radio-cassette></radio-cassette>
+
+    <cassette-tape
+      label-a="Tape 1 Side A"
+      label-b="Tape 1 Side B"
+      side-a-src="/mp3/sample1.mp3"
+      side-b-src="/mp3/sample2.mp3"
+      color="#c8b89a"
+    ></cassette-tape>
+
+    <cassette-tape
+      label-a="Tape 2 Side A"
+      label-b="Tape 2 Side B"
+      side-a-src="/mp3/sample2.mp3"
+      side-b-src="/mp3/sample1.mp3"
+      color="#4a4a4a"
+    ></cassette-tape>
+
+    <cassette-tape
+      label-a="Tape 3 Side A"
+      label-b="Tape 3 Side B"
+      side-a-src="/mp3/sample1.mp3"
+      side-b-src="/mp3/no-sound.mp3"
+      color="#8a4a4a"
+    ></cassette-tape>
+
+    <script type="module" src="/radio-cassette.js"></script>
+  </body>
+</html>
