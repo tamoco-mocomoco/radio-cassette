@@ -5,6 +5,8 @@
 カセットテープをドラッグしてラジカセに挿入して音楽を再生する、レトロ体験を再現した Web Component です。
 シークバーはありません。早送り・巻き戻し・A面B面の入れ替えなど、古き良きカセットテープの不便さを楽しめます。
 
+**デモ**: [https://tamoco-mocomoco.github.io/radio-cassette/](https://tamoco-mocomoco.github.io/radio-cassette/)
+
 ---
 
 ## 機能
@@ -30,17 +32,21 @@
 
 ## はじめかた
 
-### 1. ファイル構成
+### 1. CDN経由で読み込み (jsdelivr)
+
+```html
+<script type="module" src="https://cdn.jsdelivr.net/gh/tamoco-mocomoco/radio-cassette@main/radio-cassette.js"></script>
+```
+
+### 2. またはダウンロードしてローカルで使用
 
 ```
 radio-cassette/
   index.html           # デモページ
   radio-cassette.js     # 全コンポーネント（1ファイル）
-  styles/boombox.css    # ページスタイル
+  styles/boombox.css    # ページスタイル（デモページ用）
   mp3/                  # 音声ファイル
 ```
-
-### 2. 読み込み
 
 ```html
 <script type="module" src="radio-cassette.js"></script>

@@ -5,6 +5,8 @@
 A Web Component that recreates the retro experience of a radio-cassette player.
 Drag a cassette tape into the boombox to play music. No seek bar — just fast-forward, rewind, and flip the tape like the good old days.
 
+**Demo**: [https://tamoco-mocomoco.github.io/radio-cassette/](https://tamoco-mocomoco.github.io/radio-cassette/)
+
 ---
 
 ## Features
@@ -30,17 +32,21 @@ Drag a cassette tape into the boombox to play music. No seek bar — just fast-f
 
 ## Getting Started
 
-### 1. File Structure
+### 1. Load via CDN (jsdelivr)
+
+```html
+<script type="module" src="https://cdn.jsdelivr.net/gh/tamoco-mocomoco/radio-cassette@main/radio-cassette.js"></script>
+```
+
+### 2. Or download and use locally
 
 ```
 radio-cassette/
   index.html           # Demo page
   radio-cassette.js     # All Web Components (single file)
-  styles/boombox.css    # Page styles
+  styles/boombox.css    # Page styles (for demo page only)
   mp3/                  # Audio files
 ```
-
-### 2. Load
 
 ```html
 <script type="module" src="radio-cassette.js"></script>
